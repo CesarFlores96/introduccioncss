@@ -1,21 +1,65 @@
-h1{
-    color: rgb(238, 74, 74);
-}
+@import url('../CLASE11/fonts/Poppins-Bold.ttf');
 
+body{
+    background-color: rgb(21, 20, 54);
+    margin: 20px;
+}
 p{
-    color: rgb(48, 80, 185);
-    font-weight: 600;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    background-color: #12b65c;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
 }
-a{
-    color: inherit;
+.color1{
+    color: rgba(187, 5, 5, 0.555) !important;
+}
+.color2{
+    color: rgb(248, 127, 71) !important;
+}
+.tamaño1{
+    font-size: 30px;
+}
+.tamaño2{
+    font-size: 3rem;
+}
+.fuenterelleno1{
+ font-weight: 300;
+}
+.fuenterelleno2{
+    font-weight: 900;
+}
+.capitalize{
+   text-transform: capitalize ;
+}
+.uppercase{
+    text-transform: uppercase ;
+ }
+ .lowercase{
+    text-transform: lowercase ;
+ }
+ .decoracion{
     text-decoration: none;
+    color: skyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+.container{
+    padding: 20px;
+    background-color: rgb(70, 86, 110);
+    border: 5px;
+    border-radius: 20px;
+    box-shadow: rgb(127, 219, 5);
+    font-family: 'Popins' , sans-serif
+    
 }
 
-
-h1{
-    color: cadetblue;
-}
-
-.padre #hijo h1{
-    color : rgb(180, 206, 33)
+@font-face {
+    font-family: 'Popins';
+    src: url('fonts/Poppins-Medium.ttf') format('woff2'), /* Modern browsers */
+         url('fonts/Poppins-Bold.ttf') format('woff'), /* Legacy browsers */
+         url('fonts/Poppins-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
 }

@@ -3,16 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Estilos - Texto</title>
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>css <span>Cascada Style sheet</span></h1>
-    <p>Hola mundo <a href="">Esto es un enlace</a></p>    
-    
-    <div class="padre">
-        <div id="hijo"> <h1>Hijo</h1></div>
-    </div>    
-
-</body>
+    <div class="container">
+        <ul><li><p>Propiedad Color : (color) </p> <span class="color1"> => Especifica que color </span><span class="color2">tomara la etiqueta</span></li></ul>
+      <ul>
+        <li><p>Propiedad Font Size : (font-size) </p> <span class="tamaño1">=> Especifica el</span><span class="tamaño2">Tamaño de Fuente </span></li>
+      </ul>
+      <ul>
+        <li><p>Propiedad Font Weight : (font-weight) </p> <span class="fuenterelleno1">=> Especifica el </span><span class="fuenterelleno2">Grosor de la fuente </span></li>
+      </ul>
+      <ul>
+        <li><p>Propiedad Text Transform : (text-transform) </p> <span class="">=> Especifica el </span><span class="">formato que tendra el texto puede ser : <span class="capitalize">Capitalize</span> , <span class="uppercase">UpperCase</span>  ,  <span class="lowercase">LowerCase</span> </span></li>
+      </ul>
+      <ul>
+        <li><p>Propiedad Text Align : (text-align) </p> <span class="">=> Especifica el aliniamiento del texto : </span>
+            <span style="text-align: start; font-weight: 600;">start</span>
+            <span style="text-align: center; font-weight: 600;">center</span>
+            <span style="text-align: justify; font-weight: 600;">justify</span>
+            <span style="text-align: left; font-weight: 600;">left</span>
+            <span style="text-align: right; font-weight: 600;">right</span>
+      </ul>
+      <ul>
+        <li><p>Propiedad Text Decoration : (text-decoration) </p> <span class="">=> Especifica si la etiqueta tendra un borde </span><a href="">con border</a> || <a href="" class="decoracion">sin borde</a></li>
+      </ul>
+        
+    </div>
 </html>

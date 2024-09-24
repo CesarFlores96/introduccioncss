@@ -83,3 +83,31 @@ h1{
 /* INLINE(1000)*/
 /* IMPORT(1000)*/
 ```
+
+
+
+## UNIDADES DE MEDIDA
+
+- px : Unidad absoluta
+- em : Unidad del ancestro
+- rem : Unidad de la etiqueta html
+
+
+# ESTILOS DE TEXTO
+## PROPIEDADES
+ 
+- color
+- font-size (em,rem,px)
+- font-family (google fonts - fontface)
+- font-weight (peso de tipografia)
+- estilo entre navegadores (normalize.css)
+- text-transform: uppercase | lowercase | capitalize
+- text-align : left | center | right
+- text-decoration : none | underline
+ 
+## SELECTORES
+ 
+- Selector de Etiqueta(1)
+- Selector de Clase(10)
+- Selector de ID(100)
+- Selector Universal (uso box model)
